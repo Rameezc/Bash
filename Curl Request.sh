@@ -29,7 +29,7 @@ echo 'Perfect, lets begin!'
 n=$varreq
 for i in `seq 1 $n`;do
   (echo; echo CURL Request Number $i);
-  curl -Iv $varurl --connect-timeout $vartimeout;
+  curl -IvL $varurl --connect-timeout $vartimeout;
   (echo; echo End CURL Request Number $i);
   sleep $varsleep;
 done
