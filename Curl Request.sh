@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This Bash Script will Prompt a User for a URL and Number of Requests then Perform the CURLs
+
+
 # First we will request the User to enter the URL, then the Number of Requests to perform and Lastly the time to Wait/Sleep between requests
 
 echo 'Please enter the URL to be used: '
